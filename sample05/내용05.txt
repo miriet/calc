@@ -1,0 +1,3 @@
+구구단 출력하기
+    - 구구단을 출력하는데 printType 에 따른 html, xml 태그가 더 많은 분량을 차지한다
+    - 각각의 printType별로 전용 decoration 클래스를 만들어서 Calculation 클래스를 간단하게 만들자
