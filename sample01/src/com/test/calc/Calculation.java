@@ -47,7 +47,7 @@ public class Calculation {
     * */
     public static void main(String[] args) {
         // 2중 루프... 2단, 3단.....
-        for (int idx = 2; idx < 10; idx++) {
+        for (int idx = 1; idx < 10; idx++) {
             System.out.println("***** [" + idx + "] *****"); // 구구단 몇단인지 타이틀 출력
             // 2중 루프 두번쨰. 실제 계산하고 구구단 출력
             for (int order = 1; order < 10; order++) {
