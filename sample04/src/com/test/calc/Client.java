@@ -2,7 +2,7 @@ package com.test.calc;
 
 public class Client {
     public static void main(String[] args) {
-        PrintType printType = PrintType.HTML;
+        PrintType printType = PrintType.XML;
         Calculation calc = new Calculation();
         if (args.length == 0) {
             calc.calc(printType);
