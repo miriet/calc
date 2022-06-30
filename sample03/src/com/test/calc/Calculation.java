@@ -11,7 +11,10 @@ public class Calculation {
         System.out.println(getTitle(param));
         System.out.println(getContent(param));
     }
-
+    private String getTitle(int param){
+        String result = "***** [" + param + "] *****";
+        return result;
+    }
     private String  getContent(int param) {
         String result = "";
         for (int order = 1; order < 10; order++) {
@@ -20,8 +23,4 @@ public class Calculation {
         return result;
     }
 
-    private String getTitle(int param){
-        String result = "***** [" + param + "] *****";
-        return result;
-    }
 }
