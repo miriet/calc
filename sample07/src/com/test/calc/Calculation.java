@@ -6,7 +6,7 @@ import com.test.calc.decorator.DecoratorIF;
 
 public class Calculation {
 
-    @
+
     private DecoratorIF decorator;
     public void calc(PrintType printType){
         for (int idx = 2; idx < 10; idx++) {

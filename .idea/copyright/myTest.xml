@@ -1,0 +1,7 @@
+<component name="CopyrightManager">
+  <copyright>
+    <option name="keyword" value="Copyleft" />
+    <option name="notice" value="Copyleft (c) &amp;#36;originalComment.match(&quot;Copyleft \(c\) (\d+)&quot;, 1, &quot;-&quot;, &quot;&amp;#36;today.year&quot;)&amp;#36;today.year. Test codes written by miriet. &#10;많이 보고, 많이 만들고, 많이 디버깅하자!!!" />
+    <option name="myName" value="myTest" />
+  </copyright>
+</component>
