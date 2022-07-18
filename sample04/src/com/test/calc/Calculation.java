@@ -7,7 +7,7 @@ package com.test.calc;
 
 /*
 * 객체지향 개발의 5가지 핵심원리
-* 1. SRP (Single Resopnsibility Principle: 단일 책임의 원칙)
+* 1. SRP (Single Responsibility Principle: 단일 책임의 원칙)
 *   : 단일 클래스는 오직 한 가지 일에만 책임이 있어야 한다. 즉, 한가지 일만 처리하도록 설계되어야 한다.
 *     하나의 클래스가 하나 이상의 책임을 갖는 것을 결합(Coupled)이라고 한다. 이 경우, 하나의 책임에 대한 변경은 다른 책임의 수정을 발생시킬 수 있다.
 *     책임(기능)의 결합을 최대한 낮춘 형태를 느슨한 결합 (loosely coupled) 이라고 한다.
