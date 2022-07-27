@@ -5,7 +5,7 @@
 
 package com.test.calc;
 /*
-*   실질적인 HTML 코드를 입히는 getTitle(), getContent()를 별도의 클래스로 분리한다.
+*   실질적인 HTML 코드를 입히는 getTitle(), getContent()를 별도의 클래스로 분리한다. (HTMLDecorator)
 *   XML, TEXT 도 동일한 방식으로 분리하며, 다른 포멧을 추가할 때도 비슷한 방식으로 클래스를 생성/추가하면 된다.
 * */
 

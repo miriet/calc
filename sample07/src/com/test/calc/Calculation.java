@@ -1,9 +1,17 @@
+/*
+ * Copyleft (c) 2022. Test codes written by miriet.
+ * 많이 보고, 많이 만들고, 많이 디버깅하자!!!
+ */
+
 package com.test.calc;
 
 import com.test.calc.common.PrintType;
 import com.test.calc.control.DecoratorFactory;
 import com.test.calc.decorator.DecoratorIF;
 
+/*
+*
+* */
 public class Calculation {
 
 

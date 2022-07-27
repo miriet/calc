@@ -5,7 +5,7 @@
 
 package com.test.calc;
 /*
-*   sample06에서 각 출력포멧별로 클래스를 분리하고 Calculation 에서 인스턴스를 생성했는데
+*   sample05에서 각 출력포멧별로 클래스를 분리하고 Calculation 에서 인스턴스를 생성했는데
 *   이 부분들을 출력포멧용 클래스의 관리(생성 및 사용)를 전담하는 메소드를 만들어 분리한다.
 *   각 출력용 클래스들은 동일한 메소드를 공통의 인터페이스를 기반으로 정의해서, 해당 메소드를 사용하는
 *   곳(Calculation.getTitle(), Calculation.getContent() )에서는 출력 포멧의 타입에 상관없이
@@ -28,8 +28,8 @@ public class Calculation {
     private String getTitle(int param, PrintType printType){
         String result = "";
         decorator = getDecorator(printType);            // Decorator 클래스가 늘어나더라도 PrintType enum 에만 타입 추가하면 됨
-        result = decorator.getTitle(param);             // 출력포멧이 추가되거나 변경되더라도 Caculation 클래스는 변경되지 않음
-        return result;
+        result = decorator.getTitle(param);             // 출력포멧이 추가되거나 변경되더라도 Caculation 클래스는 getDecorator()만
+        return result;                                  // 수정하면 됨 (변할 수 있는 부분을 getDecorator()에 응집시켜 별도로 분리할 예정)
     }
 
     private String  getContent(int param, PrintType printType) {
